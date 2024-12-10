@@ -24,7 +24,7 @@ Route::delete('/posts/{id}', [PostController::class, 'destroy'])->name('posts.de
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/articles', [ArticleController::class, 'index'])->name('articles');
 Route::get('/statistics', [StatisticsController::class, 'index'])->name('statistics');
-Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
+Route::get('/gallery', [GalleryController::class, 'showGallery'])->name('gallery');
 Route::get('/map', [MapController::class, 'index'])->name('map');
 Route::get('/posts/{id}', [PostController::class, 'show'])->name('posts.show');
 
