@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
 </head>
 <body>
     <!-- Header -->
@@ -24,10 +23,6 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('gallery') }}">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('map') }}">Map</a></li>
                 </ul>
-                <form class="d-flex ms-lg-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -52,8 +47,8 @@
                     <ul class="list-unstyled mb-0">
                         <li><a href="{{ route('articles') }}" class="text-dark">Articles</a></li>
                         <li><a href="{{ route('statistics') }}" class="text-dark">Statistics</a></li>
-                        <li><a href="{{ route('gallery') }}"class="text-dark">Gallery</a></li>
-                        <li><a href="{{ route('map') }}"class="text-dark">Map</a></li>
+                        <li><a href="{{ route('gallery') }}" class="text-dark">Gallery</a></li>
+                        <li><a href="{{ route('map') }}" class="text-dark">Map</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
