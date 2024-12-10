@@ -10,6 +10,11 @@
     padding: 100px 0; /* Adjust the padding*/
 }
 
+.card-img-top {
+    height: 200px;  /* Menentukan tinggi gambar yang konsisten */
+    object-fit: cover;  /* Memastikan gambar tetap ter-crop dengan baik dan memenuhi area */
+}
+
 
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
