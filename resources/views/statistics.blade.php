@@ -11,10 +11,12 @@
         <div class="col-md-6">
             <h3>Global Temperature Change</h3>
             <canvas id="temperatureChart"></canvas>
+            <p><small>Data Source: NASA GISS, Global Surface Temperature Analysis</small></p>
         </div>
         <div class="col-md-6">
             <h3>Carbon Emissions by Sector</h3>
             <canvas id="emissionsChart"></canvas>
+            <p><small>Data Source: Global Carbon Project</small></p>
         </div>
     </div>
 
@@ -24,6 +26,7 @@
             <h3>Sea Level Rise</h3>
             <p>The average sea level has been rising due to global warming. Here are the projections for the next 50 years:</p>
             <canvas id="seaLevelChart"></canvas>
+            <p><small>Data Source: NASA Sea Level Change</small></p>
         </div>
     </div>
 
@@ -33,6 +36,7 @@
             <h3>Endangered Species</h3>
             <p>The effects of climate change are causing more species to become endangered. See the trend below:</p>
             <canvas id="biodiversityChart"></canvas>
+            <p><small>Data Source: IUCN Red List</small></p>
         </div>
     </div>
 
@@ -42,6 +46,7 @@
             <h3>Air Pollution Index</h3>
             <p>Air pollution has become a significant issue in many cities worldwide. Below is the air quality index for major cities:</p>
             <canvas id="airPollutionChart"></canvas>
+            <p><small>Data Source: World Health Organization (WHO), AirVisual</small></p>
         </div>
     </div>
 
@@ -54,10 +59,10 @@ var ctx = document.getElementById('temperatureChart').getContext('2d');
 var temperatureChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['2000', '2005', '2010', '2015', '2020'],
+        labels: ['1880', '1900', '1950', '2000', '2020'],
         datasets: [{
             label: 'Global Temperature (°C)',
-            data: [14.5, 14.7, 14.9, 15.1, 15.3],
+            data: [13.7, 13.8, 14.0, 14.4, 15.2],  // Data suhu global dari NASA
             borderColor: 'rgba(255, 99, 132, 1)',
             fill: false,
         }]
@@ -72,7 +77,7 @@ var emissionsChart = new Chart(ctx2, {
         labels: ['Transport', 'Energy', 'Industry', 'Agriculture', 'Other'],
         datasets: [{
             label: 'Global Carbon Emissions',
-            data: [40, 30, 15, 10, 5],
+            data: [23, 40, 18, 13, 6],  // Data emisi karbon berdasarkan sektor
             backgroundColor: ['#FF5733', '#33FF57', '#3357FF', '#57FF33', '#FF33FF'],
         }]
     }
@@ -83,10 +88,10 @@ var ctx3 = document.getElementById('seaLevelChart').getContext('2d');
 var seaLevelChart = new Chart(ctx3, {
     type: 'line',
     data: {
-        labels: ['2000', '2005', '2010', '2015', '2020'],
+        labels: ['2020', '2050', '2100'],
         datasets: [{
-            label: 'Sea Level Rise (mm)',
-            data: [0, 3, 5, 8, 12],
+            label: 'Sea Level Rise (meters)',
+            data: [0.1, 0.3, 0.6],  // Data proyeksi kenaikan permukaan laut
             borderColor: 'rgba(54, 162, 235, 1)',
             fill: false,
         }]
@@ -98,10 +103,10 @@ var ctx4 = document.getElementById('biodiversityChart').getContext('2d');
 var biodiversityChart = new Chart(ctx4, {
     type: 'bar',
     data: {
-        labels: ['2000', '2005', '2010', '2015', '2020'],
+        labels: ['2000', '2020'],
         datasets: [{
-            label: 'Number of Endangered Species',
-            data: [500, 600, 750, 900, 1200],
+            label: 'Endangered Species (%)',
+            data: [10, 25],  // Data spesies terancam punah berdasarkan IUCN
             backgroundColor: 'rgba(255, 159, 64, 0.2)',
             borderColor: 'rgba(255, 159, 64, 1)',
             borderWidth: 1
@@ -117,7 +122,7 @@ var airPollutionChart = new Chart(ctx5, {
         labels: ['New York', 'Los Angeles', 'Beijing', 'Delhi', 'Jakarta'],
         datasets: [{
             label: 'Air Quality Index (AQI)',
-            data: [45, 88, 210, 300, 150],
+            data: [61, 53, 82, 167, 50],  // Data AQI di beberapa kota
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)',
             borderWidth: 1
