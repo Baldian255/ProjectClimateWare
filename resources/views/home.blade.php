@@ -18,10 +18,11 @@
         <!-- Penyebab -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyJTIwcG9sbHV0aW9ufGVufDB8fDB8fHww" class="card-img-top" alt="Causes of Global Warming">
                 <div class="card-body">
                     <h5 class="card-title">Causes of Global Warming</h5>
                     <p class="card-text">
-                        Global warming is caused by human activities like deforestation, burning fossil fuels, and industrial processes that release greenhouse gases into the atmosphere.
+                        Global warming is primarily driven by human activities that increase the concentration of greenhouse gases in the atmosphere. Deforestation, for example, removes trees that naturally absorb CO2. The burning of fossil fuels for energy, such as coal, oil, and natural gas, releases carbon dioxide and methane into the air. Additionally, industrial activities, agriculture, and waste management practices all contribute to the release of greenhouse gases, which trap heat and result in rising global temperatures.
                     </p>
                 </div>
             </div>
@@ -30,10 +31,11 @@
         <!-- Dampak -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1511027643875-5cbb0439c8f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXN0JTIwZmlyZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Impacts of Global Warming">
                 <div class="card-body">
                     <h5 class="card-title">Impacts of Global Warming</h5>
                     <p class="card-text">
-                        Rising temperatures lead to sea level rise, extreme weather events, loss of biodiversity, and threats to human health and livelihoods.
+                        The effects of global warming are already being felt around the world. Rising temperatures lead to the melting of polar ice caps and glaciers, causing sea levels to rise. This can result in flooding of low-lying areas, threatening coastal communities. Additionally, extreme weather events such as hurricanes, droughts, and heatwaves are becoming more frequent and severe. These changes negatively impact biodiversity, with many species struggling to adapt or survive. Human health is also at risk, as rising temperatures contribute to the spread of diseases and pose challenges to food and water security.
                     </p>
                 </div>
             </div>
@@ -42,10 +44,11 @@
         <!-- Pentingnya Tindakan -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
+                <img src="https://assets.weforum.org/article/image/MNA0Wu3ZIdbnSXQz5LtH0TUp_h4DNWp1UPvxFDhuCjo.jpg" class="card-img-top" alt="Why Act Now">
                 <div class="card-body">
                     <h5 class="card-title">Why Act Now?</h5>
                     <p class="card-text">
-                        Immediate action is crucial to mitigate the effects of global warming and ensure a sustainable future for the next generations.
+                        Immediate action is necessary to prevent the worst impacts of global warming. The longer we delay, the more difficult and expensive it will be to reverse or adapt to the consequences. Mitigation efforts, such as reducing carbon emissions and transitioning to renewable energy sources, can help slow down the process. At the same time, adaptation strategies like building resilient infrastructure, protecting natural ecosystems, and improving public health systems are essential to safeguard our future. It is crucial that we act now to protect our planet and ensure a sustainable future for generations to come.
                     </p>
                 </div>
             </div>
