@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Hero Section with Background Image -->
-<div class="hero-section">
+<div class="hero-section" style="background-image: url('{{ asset('images/Plants.jpg') }}'); background-size: cover; background-position: center; background-attachment: fixed; color: white; text-align: center; padding: 100px 0;">
     <div class="hero-overlay">
         <h1 class="display-4">Welcome to ClimateWare</h1>
         <p class="lead">A platform to raise awareness about global warming.</p>
@@ -12,13 +12,14 @@
     </div>
 </div>
 
+
 <!-- Section: Causes, Impacts, Actions -->
 <div class="container mt-5 section-bg">
     <div class="row mt-4">
         <!-- Penyebab -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-                <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyJTIwcG9sbHV0aW9ufGVufDB8fDB8fHww" class="card-img-top" alt="Causes of Global Warming">
+                <img src="images/causes.jpg" class="card-img-top" alt="Causes of Global Warming">
                 <div class="card-body">
                     <h5 class="card-title">Causes of Global Warming</h5>
                     <p class="card-text">
@@ -31,7 +32,7 @@
         <!-- Dampak -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-                <img src="https://images.unsplash.com/photo-1511027643875-5cbb0439c8f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXN0JTIwZmlyZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Impacts of Global Warming">
+                <img src="images/forestfire.jpeg" class="card-img-top" alt="Impacts of Global Warming">
                 <div class="card-body">
                     <h5 class="card-title">Impacts of Global Warming</h5>
                     <p class="card-text">
@@ -44,7 +45,7 @@
         <!-- Pentingnya Tindakan -->
         <div class="col-md-4">
             <div class="card h-100 shadow-sm">
-                <img src="https://assets.weforum.org/article/image/MNA0Wu3ZIdbnSXQz5LtH0TUp_h4DNWp1UPvxFDhuCjo.jpg" class="card-img-top" alt="Why Act Now">
+                <img src="images/actnow.jpg" class="card-img-top" alt="Why Act Now">
                 <div class="card-body">
                     <h5 class="card-title">Why Act Now?</h5>
                     <p class="card-text">
